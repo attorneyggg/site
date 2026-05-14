@@ -1,0 +1,66 @@
+body {
+    background-color: #1a1a2e; /* Темный фон, не белый */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #16213e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Стилизация ссылок под кнопки */
+.nav-button, button {
+    display: inline-block;
+    background-color: #e94560;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Эффект при наведении */
+.nav-button:hover, button:hover {
+    background-color: #ff2e63;
+    transform: scale(1.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #4e4e4e;
+    padding: 12px;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
